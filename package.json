@@ -14,7 +14,7 @@
     "react-scripts": "1.0.12"
   },
   "scripts": {
-    "dev": "react-scripts start",
+    "dev": "react-scripts start : .env",
     "start": "BROWSER=none HOST=192.168.56.101 PORT=3001 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
