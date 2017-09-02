@@ -1,0 +1,40 @@
+{
+  "name": "d2d",
+  "version": "0.1.0",
+  "description": "Карта подомового обхода",
+  "private": true,
+  "dependencies": {
+    "openlayers": "^4.3.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.12"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "BROWSER=none HOST=192.168.56.101 PORT=3001 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/i-shulenin/d2d.git"
+  },
+  "keywords": [
+    "code4navalny",
+    "react",
+    "redux",
+    "openlayer",
+    "javascript"
+  ],
+  "author": "Ilya Shulenin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/i-shulenin/d2d/issues"
+  },
+  "homepage": "https://github.com/i-shulenin/d2d#readme"
+}
