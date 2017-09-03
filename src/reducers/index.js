@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import page from './map';
+import map from './map';
 
 export default combineReducers({
   map,
