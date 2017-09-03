@@ -8,7 +8,8 @@ class App extends Component {
     const { map } = this.props
 
     return (
-      <Map view={map.view} />
+      <Map view={map.view}>
+      </Map>
     );
   }
 }
