@@ -1,12 +1,22 @@
-import React from 'react';
+import React { Component } from 'react';
+import { connect } from 'react-redux';
+import { Map } from '../components/Map';
 import './App.css';
 
-class App extends React.Component {
+class App extends Component {
   render() {
+    const { map } = this.props
+
     return (
-      <div>Test</div>
+      <Map view={map.view} />
     );
   }
 }
 
-export default App;
+function mapStateToProps(state) {
+  return {
+    map: state.map,
+  }
+}
+
+export default connect(mapStateToProps)(App);
